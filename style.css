@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    /*background: url("img/texture-paper.png");*/
     background-size: 280px 280px;
 }
 
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(87,87,87,1);
 }
 
 .d-bloc .a-btn:hover,
@@ -824,12 +824,39 @@ h4 {
 .bg-presentation {
     background-image: url("img/compressed/image-de-presentation.avif");
 }
-
+/*code improvement*/
 .text-ttl {
     max-width: 1000px;
     padding: 0 10%;
 }
 
+.contrast-dark {
+    color: #333333!important;
+}
+
+.background-orange {
+    background-color: #F3976C;
+    padding: 10px 0;
+    border-radius: 50px;
+}
+
+.btn-atomic-dark {
+    background: #333333!important;
+}
+
+.larger {
+    font-size: 12px;
+}
+
+.citation {
+    font-size: 20px;
+}
+
+.bloc-size {
+    margin: auto;
+    max-width: 80%;
+}
+/*ccode improvement*/
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
